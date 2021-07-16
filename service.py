@@ -13,7 +13,7 @@ setuploop = True
 game = True
 
 def dragon():
-    print("Beta 0.1.4")
+    print("Beta 0.1.5")
     print("   (  )   /\   _                 (     ")
     print("    \ |  (  \ ( \.(               )                      _____ ")
     print("  \  \ \  `  `   ) \             (  ___                 / _   \ ")
@@ -29,7 +29,7 @@ def dragon():
     print("   '  (__/                                             /                  \ \n")
 
 def skip():
-    print
+    print("")
 
 def gameclose():
     print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
