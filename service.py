@@ -13,7 +13,7 @@ setuploop = True
 game = True
 
 def dragon():
-    print("Beta 1.2.2")
+    print("Beta 0.1.4")
     print("   (  )   /\   _                 (     ")
     print("    \ |  (  \ ( \.(               )                      _____ ")
     print("  \  \ \  `  `   ) \             (  ___                 / _   \ ")
