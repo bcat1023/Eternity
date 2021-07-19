@@ -163,4 +163,5 @@ while st:
           st = "False"
     else:
       print("Unexpected input")
+      print(returnpromt)
 input("\nend of code, an error occurred and the program will now terrminate. press enter to close")
