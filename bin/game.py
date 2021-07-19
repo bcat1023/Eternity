@@ -116,6 +116,8 @@ def gamestart():
 #setup
 def setup():
   while setuploop:
+    gm = "False"
+    st = "False"
     charname = input("What do you want your name to be: ")
     chargen = input("Pick a gender (male, female, other): ")
     setupcomfin = "True"
@@ -148,8 +150,6 @@ while st:
     if returnpromt == "yes":
       print("\n\nGreat lets get started")
       setup()
-      gm = "False"
-      st = "False"
     elif returnpromt == "no":
       while prmtut:
         print("\nGreat lets start the tutorial\nPromts will come at you in a special format like this\nquestion (Possible, answers):")
