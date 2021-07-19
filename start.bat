@@ -1,3 +1,5 @@
 @echo off
 echo Starting game
-python service.py
+echo Don't forget to install python
+cd bin
+python game.py

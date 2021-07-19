@@ -1,0 +1,33 @@
+Turn on word wrap to view this document best
+
+Thanks for downloading ETERNITY, This game is currently in beta and isnt complete. Please report any bugs by createing an issue on github. At the moment Windows is the most stable release. Mac is untested and linux is in the testing phase
+
+Repository: https://github.com/bcat1023/Eternity
+Create an issue: https://github.com/bcat1023/Eternity/issues/new/choose
+
+    --------------------------------------------------------------------------------
+    Linux instructions:
+        Linux:
+            If you are on linux open a command prompt and cd to this folder. Then type ". install.sh" That will install the game after you install it use ". start.sh" to run the game
+        Linux fallback:
+            Only use linux fallback if linux instruction's don't work
+            If you are on linux open a command prompt and cd to this folder. Then type ". install.sh" That will install the game after you install it use ". start1.sh" to run the game
+        Notice for Linux users:
+            Linux is being actively tested and is not perfected and may have some bugs. If you find a bug please create an issue on github
+
+    --------------------------------------------------------------------------------
+    Windows instructions:
+        Windows:    
+            First go to the python website and download python if you haven't, Then double click start.bat
+
+    --------------------------------------------------------------------------------
+    Mac instructions:
+        Mac:
+            At the moment mac doesn't have a launcher. What you will need to do for now is go into the folder called bin. Then install python if you haven't. Then go back to the folder and open a command prompt and go into that folder. Then type "python game.py"
+        Mac fallback:
+            Only use mac fallback if Mac instructions don't work
+            At the moment mac doesn't have a launcher. What you will need to do for now is go into the folder called bin. Then install python if you haven't. Then go back to the folder and open a command prompt and go into that folder. Then type "python linuxgame.py"
+        Notice for mac users:
+            At the moment the game hasn't been tested on any apple devices so you game may not act as intended. If you run into any problems then please create an issue on github
+
+    --------------------------------------------------------------------------------
