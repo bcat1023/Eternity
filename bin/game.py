@@ -139,8 +139,6 @@ while st:
     gm = True
   elif game == "no":
     gameclose()
-  else:
-    print("Unexpected input")
   
   while gm:
     returnpromt = input("\nWelcome to Eternity, Lets get started\nHave you played eternity before? (yes, no): ")
