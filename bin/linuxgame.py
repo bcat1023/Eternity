@@ -31,7 +31,7 @@ def startscreen():
     print
     newscreen()
     dragon()
-    game = input("Do you wish to start the game? (yes, no): ")
+    game = raw_input("Do you wish to start the game? (yes, no): ")
     if game == "yes":
         newscreen()
         print(game)
@@ -44,4 +44,5 @@ def startscreen():
     else:
         newscreen()
         startscreen()
+
 startscreen()
