@@ -6,13 +6,13 @@ print("|________|")
 print("\nLoading Game...")
 
 # Setting vales
-st = True
+st = "True"
 yes = ""
 no = ""
-gm = False
-prmtut = True
-setuploop = True
-game = True
+gm = "False"
+prmtut = "True"
+setuploop = "True"
+game = "True"
 
 def dragon():
     print("Beta 0.1.5")
@@ -118,14 +118,14 @@ def setup():
   while setuploop:
     charname = input("What do you want your name to be: ")
     chargen = input("Pick a gender (male, female, other): ")
-    setupcomfin = True
+    setupcomfin = "True"
     while setupcomfin:
       print("\n\n\n\n\n\n\n\n\n\nPlease check that this is what you want")
       charconfirm = input("Are you sure you want your name to be " + str(charname) + str("\nAnd your gender to be ") + str(chargen) + str("? (yes, no): "))
       if charconfirm == "yes":
         print("Alright then, Lets get started")
         gamestart()
-        setupcomfin = False
+        setupcomfin = "False"
       elif charconfirm == "no":
         print("Ok then, you can change it")
         setup()
@@ -136,17 +136,20 @@ while st:
   dragon()
   game = input("Do you wish to start the game? (yes, no): ")
   if game == "yes":
-    gm = True
+    gm = "True"
+    st = "False"
   elif game == "no":
     gameclose()
+  else:
+    print("Unexpected input")
   
   while gm:
     returnpromt = input("\nWelcome to Eternity, Lets get started\nHave you played eternity before? (yes, no): ")
     if returnpromt == "yes":
       print("\n\nGreat lets get started")
       setup()
-      gm = False
-      st = False
+      gm = "False"
+      st = "False"
     elif returnpromt == "no":
       while prmtut:
         print("\nGreat lets start the tutorial\nPromts will come at you in a special format like this\nquestion (Possible, answers):")
@@ -156,8 +159,8 @@ while st:
         elif promttut == "yes":
           print("Great, lets get started then")
           setup()
-          gm = False
-          st = False
+          gm = "False"
+          st = "False"
     else:
       print("Unexpected input")
 input("\nend of code, an error occurred and the program will now terrminate. press enter to close")
