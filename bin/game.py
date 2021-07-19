@@ -158,4 +158,6 @@ while st:
           setup()
           gm = False
           st = False
+    else:
+      print("Unexpected input")
 input("\nend of code, an error occurred and the program will now terrminate. press enter to close")

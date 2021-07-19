@@ -1,1 +1,1 @@
-python /service.py
+python bin/game.py

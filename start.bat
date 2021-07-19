@@ -1,3 +1,3 @@
 @echo off
 echo Starting game
-python service.py
+python /bin/game.py
