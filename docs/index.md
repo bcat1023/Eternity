@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-
-[Link to another page](./another-page.html).
-
 # ETERNITY
 
 Eternity is a role playing game where you are a player who is fighing to live to be the best warrior. But to do that your warrior bust face many blockages in his way. He fights and fights in this text-based rpg
