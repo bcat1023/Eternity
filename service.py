@@ -68,7 +68,7 @@ def gamestart():
       print("\nLoading Area...")
       print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLooking for a fight...")
       fightnum = random.randint(1, 1)
-    if fightnum == 1:
+      if fightnum == 1:
         print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Eternity")
         print(" ________")
         print("| |____| |")
@@ -97,7 +97,7 @@ def gamestart():
           print("You hit Turtle for 5HP")
           anhealth = 0
           print("You have killed Turtle and gained 10HP from Turtle")
-          health = health + str(10)
+          #addcodehere
           input("Press any enter to go back")
         else:
           print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Eternity")
@@ -107,6 +107,8 @@ def gamestart():
           print("|  (__)  |")
           print("|________|")
           print("\nLoading Menu...")
+      else:
+        print("error check 1")
     else:
         skip()
 #setup
@@ -124,6 +126,7 @@ def setup():
         setupcomfin = False
       elif charconfirm == "no":
         print("Ok then, you can change it")
+        setup()
       else:
         print("Invalid Input")
 while st:
