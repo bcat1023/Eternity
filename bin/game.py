@@ -161,3 +161,4 @@ while st:
           setup()
           gm = "False"
           st = "False"
+print("end of code, stop 1")
