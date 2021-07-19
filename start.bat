@@ -1,3 +1,4 @@
 @echo off
 echo Starting game
-python /bin/game.py
+cd bin
+python game.py
