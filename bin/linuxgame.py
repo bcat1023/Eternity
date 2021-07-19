@@ -5,6 +5,8 @@ print("|  (__)  |")
 print("|________|")
 print("\nLoading Game...")
 import random
+yes = ""
+no = ""
 
 def dragon():
     print("Beta 0.1.5")
@@ -27,10 +29,12 @@ def newscreen():
 
 def startscreen():
     print
+    newscreen()
     dragon()
     game = input("Do you wish to start the game? (yes, no): ")
     if game == "yes":
         newscreen()
+        print(game)
         #gamesetup
     elif game == "no":
         newscreen()
