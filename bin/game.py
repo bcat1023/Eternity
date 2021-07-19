@@ -7,6 +7,8 @@ print("\nLoading Game...")
 
 # Setting vales
 st = True
+yes = ""
+no = ""
 gm = False
 prmtut = True
 setuploop = True
