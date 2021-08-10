@@ -1,5 +1,5 @@
 @echo off
 echo Starting game
 echo Don't forget to install python
-cd bin
+cd ./bin
 python game.py
